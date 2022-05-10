@@ -4,27 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
-</head>
 
-<body>
-    <h1>BRAND NAME</h1>
-    
     <style>
-        h1 {text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-
-    </style>
-
-<head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<style>
-    {box-sizing: border-box;}
-
-    body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+      h1 {text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+      body { margin: 0;  font-family: Arial, Helvetica, sans-serif;}
 
 .topnav {
   overflow: hidden;
@@ -93,28 +78,10 @@
     border: 1px solid #ccc;  
   }
 }
-</style>
-</head>
 
-<body> 
-    
-<div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#shop">Shop</a>
-    <div class="search-container">
-      <form action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-  </div>
+#tshirt1 {float: left; margin-right: 20px;}
+#tshirt2 {float: left;}
 
-</body>
-
-<head>
-<style> 
-   {box-sizing: border-box}
-body {font-family: "Lato", sans-serif;}
 
 .tab {
   float: left;
@@ -154,11 +121,25 @@ body {font-family: "Lato", sans-serif;}
   border-left: none;
   height: 320px;
 }
-
-</style>
+  </style>
 </head>
 
-<body> 
+<body>
+    <h1>LA STRADA</h1>
+  
+    
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+
+
   <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'T-Shirts')" id="defaultOpen">T-Shirts</button>
     <button class="tablinks" onclick="openCity(event, 'Pants and shorts')">Pants and shorts</button>
@@ -170,7 +151,13 @@ body {font-family: "Lato", sans-serif;}
   <div id="T-Shirts" class="tabcontent">
     <h3>T-Shirts</h3>
     <p>This section has pictures of T-Shirts.</p>
-    <img scr="T-Shirt Image.jpeg" width="300" height="200">
+      <div id="tshirt1"> 
+        <img src="Tshirt.jpg" width="300" height="200">
+      </div>
+      <div id="tshirt2">
+        <img src="Tshirt.jpg" width="300" height="200">
+      </div>
+    
   </div>
   
   <div id="Pants and shorts" class="tabcontent">
