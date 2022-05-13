@@ -8,10 +8,10 @@
     <title>Document</title>
 
     <style>
-      h1 {text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-      body { margin: 0;  font-family: Arial, Helvetica, sans-serif;}
-      h4 {text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-      h2 {text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+      h1 {text-align: center; font-family: Arial, Helvetica, sans-serif;}
+      body { margin: 0;  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+      h4 {text-align: center; font-family: Arial, Helvetica, sans-serif;}
+      h2 {text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 .topnav {
   overflow: hidden;
@@ -121,19 +121,22 @@
   border: 1px solid #ccc;
   width: 67%;
   border-left: none;
-  height: 320px;
+  height: 385px;
 }
+
+
   </style>
 </head>
 
 <body>
-    <h1>LA STRADA</h1>
-    <h4>Click & Collect / Straight from the Streets / Online Shopping / Shop Now Pay Later</h4>
+    <h1>LA STRADA.</h1>
+    <h4>Click & Collect / Straight From the Streets / Online Shopping / Shop Now Pay Later</h4>
   
     
 <div class="topnav">
     <a class="active" href="#home">Home</a>
     <a href="#shop">Shop</a>
+    <a href="#All">All</a>
     <div class="search-container">
       <form action="/action_page.php">
         <input type="text" placeholder="Search.." name="search">
@@ -150,6 +153,7 @@
     <button class="tablinks" onclick="openCity(event, 'Hoodies')">Hoodies</button>
     <button class="tablinks" onclick="openCity(event, 'Bags')">Bags</button>
     <button class="tablinks" onclick="openCity(event, 'Hats')">Hats</button>
+    <button class="tablinks" onclick="openCity(event, 'Accessories')">Accessories</button>
   </div>
   
   <div id="T-Shirts" class="tabcontent">
@@ -192,7 +196,15 @@
       <img src="Cap.jpg" width="200" height="200">
     </div>
   </div>
-  
+
+  <div id="Accessories" class="tabcontent">
+    <h3>Accessories</h3>
+    <p>This section will have pictures of Accessories.</p>
+    <div id="tshirt1">
+      <img src="Accessories.jpg" width="200" height="200">
+    </div>
+  </div>
+
   <script>
   function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
@@ -211,8 +223,9 @@
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
   </script>
-     
-  <h2>The Lastest Streetwear Arravials at La Strada</h2>
+   
+  <h2>THE LASTEST STREETWEAR ARRIVALS AT LA STRADA</h2>
+
 
 </body>
 
